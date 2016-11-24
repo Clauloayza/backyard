@@ -1,8 +1,5 @@
 /* Tu CSS va aqui */
 /* -------------------BODY--- */
-*{
-    outline: 1px solid #f8b4db;
-}
 
 .clearfix{
     display: table;
@@ -95,3 +92,44 @@ section{
     margin-bottom: 24px;
 }
 
+@media (max-width:900px){
+    .container{
+        width: 700px;
+    }
+    .col-2{
+        width: 50%;
+        margin-right: 200px;
+        background: #2a515f;
+    }
+    section{
+        background: #000;
+    }
+}
+@media (max-width:700px){
+    .container{
+        width: 100%;
+    }
+    .col-1, .col-2{
+        width: 100%;
+    }
+    .col-2{
+        margin-right: 0px;
+    }
+    .block-form{
+        margin: 0;
+    }
+    .logo{
+        width: 100%
+    }
+    .list-menu li a {
+      color: #30b4af;
+      font-weight: bold;
+      }
+    section{
+        background: #580d0d;
+    }
+    .col-2{
+        background: #000;
+    }
+    
+    }
